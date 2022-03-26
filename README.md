@@ -1,1 +1,147 @@
-# refactoring
+# Refactoring
+
+- Book website: https://refactoring.com/
+- Online catalog of refactorings: https://refactoring.com/catalog/
+- How to access the web edition of Refactoring: https://martinfowler.com/articles/access-refactoring-web-edition.html
+
+
+## Table of Contents
+
+- Preface
+  - What Is Refactoring?
+  - What's in This Book?
+  - Who Should Read This Book?
+  - Building on a Foundation Laid by Others
+  - Acknowledgments
+- Chapter 1 — Refactoring: A First Example
+  - The Starting Point
+  - Comments on the Starting Program
+  - The First Step in Refactoring
+  - Decomposing the statement Function
+  - Status: Lots of Nested Functions
+  - Splitting the Phases of Calculation and Formatting
+  - Status: Separated into Two Files (and Phases)
+  - Reorganizing the Calculations by Type
+  - Status: Creating the Data with the Polymorphic Calculator
+  - Final Thoughts
+- Chapter 2 — Principles in Refactoring
+  - Defining Refactoring
+  - The Two Hats
+  - Why Should We Refactor?
+  - When Should We Refactor?
+  - Problems with Refactoring
+  - Refactoring, Architecture, and Yagni
+  - Refactoring and the Wider Software Development Process
+  - Refactoring and Performance
+  - Where Did Refactoring Come From?
+  - Automated Refactorings
+  - Going Further
+- Chapter 3 — Bad Smells in Code
+  - Mysterious Name
+  - Duplicated Code
+  - Long Function
+  - Long Parameter List
+  - Global Data
+  - Mutable Data
+  - Divergent Change
+  - Shotgun Surgery
+  - Feature Envy
+  - Data Clumps
+  - Primitive Obsession
+  - Repeated Switches
+  - Loops
+  - Lazy Element
+  - Speculative Generality
+  - Temporary Field
+  - Message Chains
+  - Middle Man
+  - Insider Trading
+  - Large Class
+  - Alternative Classes with Different Interfaces
+  - Data Class
+  - Refused Bequest
+  - Comments
+- Chapter 4 — Building Tests
+  - The Value of Self-Testing Code
+  - Sample Code to Test
+  - A First Test
+  - Add Another Test
+  - Modifying the Fixture
+  - Probing the Boundaries
+  - Much More Than This
+- Chapter 5 — Introducing the Catalog
+  - Format of the Refactorings
+  - The Choice of Refactorings
+- Chapter 6 — A First Set of Refactorings
+  - Extract Function
+  - Inline Function
+  - Extract Variable
+  - Inline Variable
+  - Change Function Declaration
+  - Encapsulate Variable
+  - Rename Variable
+  - Introduce Parameter Object
+  - Combine Functions into Class
+  - Combine Functions into Transform
+  - Split Phase‡
+- Chapter 7 — Encapsulation
+  - Encapsulate Record
+  - Encapsulate Collection
+  - Replace Primitive with Object
+  - Replace Temp with Query
+  - Extract Class
+  - Inline Class
+  - Hide Delegate
+  - Remove Middle Man
+  - Substitute Algorithm
+- Chapter 8 — Moving Features
+  - Move Function
+  - Move Field
+  - Move Statements into Function
+  - Move Statements to Callers
+  - Replace Inline Code with Function Call
+  - Slide Statements
+  - Split Loop
+  - Replace Loop with Pipeline
+  - Remove Dead Code
+- Chapter 9 — Organizing Data
+  - Split Variable
+  - Rename Field
+  - Replace Derived Variable with Query
+  - Change Reference to Value
+  - Change Value to Reference
+  - Replace Magic Literal
+- Chapter 10 — Simplifying Conditional Logic
+  - Decompose Conditional
+  - Consolidate Conditional Expression
+  - Replace Nested Conditional with Guard Clauses
+  - Replace Conditional with Polymorphism
+  - Introduce Special Case
+  - Introduce Assertion
+  - Replace Control Flag with Break
+- Chapter 11 — Refactoring APIs
+  - Separate Query from Modifier
+  - Parameterize Function
+  - Remove Flag Argument
+  - Preserve Whole Object
+  - Replace Parameter with Query
+  - Replace Query with Parameter
+  - Remove Setting Method
+  - Replace Constructor with Factory Function
+  - Replace Function with Command
+  - Replace Command with Function
+  - Return Modified Value†
+  - Replace Error Code with Exception
+  - Replace Exception with Precheck
+- Chapter 12 — Dealing with Inheritance
+  - Pull Up Method
+  - Pull Up Field
+  - Pull Up Constructor Body
+  - Push Down Method
+  - Push Down Field
+  - Replace Type Code with Subclasses
+  - Remove Subclass
+  - Extract Superclass
+  - Collapse Hierarchy
+  - Replace Subclass with Delegate
+  - Replace Superclass with Delegate
